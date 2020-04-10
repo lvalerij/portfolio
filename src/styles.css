@@ -1,0 +1,93 @@
+@import url("https://static.fontawesome.com/css/fontawesome-app.css");
+@import url("https://pro.fontawesome.com/releases/v5.2.0/css/all.css");
+
+.App {
+  font-family: sans-serif;
+  font-family: Montserrat;
+}
+
+.fullHeight {
+  min-height: 100vh;
+}
+
+.leftSidebar {
+  background-color: #663399;
+  color: white;
+}
+
+.profileImage {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.profileName h5 {
+  font-weight: bold;
+}
+
+.menuItems a {
+  color: white;
+  font-weight: bold;
+}
+.menuItems a.active {
+  text-decoration: underline;
+}
+.menuItems a:hover,
+.socialLinks a:hover {
+  text-decoration: underline;
+  color: #660066;
+  cursor: pointer;
+}
+
+.rightSection {
+  border-left: 15px solid #660066;
+}
+.rightSectionInside h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #660066;
+}
+.about h4 {
+  color: #660066;
+}
+.rightSectionInsideText {
+  color: #333333;
+  font-weight: semibold;
+}
+
+.aboutButtons button {
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  margin-right: 5%;
+}
+.viewButton {
+  background-color: #9966cc;
+}
+.resumeButton {
+  background-color: #666666;
+}
+.skill {
+  border: 2px solid #660066;
+  border-radius: 7px;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+.skill .skillName {
+  font-weight: bold;
+}
+.skills .bars * {
+  border-radius: 4px;
+  display: inline-block;
+  width: 12px;
+  height: 24px;
+  margin: 0 2px 0 0;
+  margin-top: 2px;
+}
+.good {
+  background: linear-gradient(#238b8b 49%, #1d7373 51%);
+}
+.neutral {
+  background: linear-gradient(#d55757 49%, #bf3030 51%);
+}
