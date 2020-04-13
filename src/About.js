@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css";
 import Skill from "./Skill.js";
+import Contact from "./Contact.js";
 
 const skillSet = [
   {
@@ -9,7 +10,7 @@ const skillSet = [
   },
   {
     name: "React",
-    level: 1
+    level: 2
   },
   {
     name: "Java",
@@ -17,11 +18,11 @@ const skillSet = [
   },
   {
     name: "Spring",
-    level: 3
+    level: 4
   },
   {
     name: "Hibernate",
-    level: 3
+    level: 4
   },
   {
     name: "MySQL",
@@ -36,7 +37,7 @@ class About extends React.Component {
 
   render() {
     return (
-      <div className="AboutSection">
+      <div>
         <div className="about">
           <h1 className="mb-2">Valerij Lutkow</h1>
           <h4>&nbsp;Full-stack developer</h4>
@@ -49,10 +50,9 @@ class About extends React.Component {
           bla bla bla bla bla bla bla bla
         </div>
         <div className="d-flex mt-4 justify-content-center aboutButtons">
-          <button className="viewButton">View Portfolio</button>
-          <button className="resumeButton">Resume PDF</button>
+          <button className="btn btn-primary viewButton">View Portfolio</button>
+          <button className="btn btn-primary resumeButton">Resume PDF</button>
         </div>
-
         <div className="mt-5 mb-3">
           <h4 className="font-weight-bold">&nbsp;My skills</h4>
           <div className="skills flex-row">
@@ -61,6 +61,7 @@ class About extends React.Component {
             ))}
           </div>
         </div>
+        <Contact /> {/*todo: should be separated */}
       </div>
     );
   }

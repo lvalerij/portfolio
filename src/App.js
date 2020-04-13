@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import "./styles.css";
 import About from "./About.js";
+import Contact from "./Contact.js";
 
 export default function App() {
   return (
@@ -51,6 +52,7 @@ export default function App() {
           <div className="col-9 col-md-7 min-vh-100 rightSection">
             <div className="ml-2 mr-2 mt-4 ml-md-5 mt-md-5 rightSectionInside">
               <About />
+              {/* <Contact /> */}
             </div>
           </div>
         </div>
