@@ -6,33 +6,37 @@ import Contact from "./Contact.js";
 const skillSet = [
   {
     name: "JavaScript",
-    level: 2
+    level: 2,
   },
   {
     name: "React",
-    level: 2
+    level: 2,
   },
   {
     name: "Java",
-    level: 4
+    level: 4,
   },
   {
     name: "Spring",
-    level: 4
+    level: 4,
   },
   {
     name: "Hibernate",
-    level: 4
+    level: 4,
   },
   {
     name: "MySQL",
-    level: 3
-  }
+    level: 3,
+  },
 ];
+
+const theme = {
+  background: grey;
+};
 
 class About extends React.Component {
   state = {
-    skills: skillSet
+    skills: skillSet,
   };
 
   render() {
@@ -56,7 +60,7 @@ class About extends React.Component {
         <div className="mt-5 mb-3">
           <h4 className="font-weight-bold">&nbsp;My skills</h4>
           <div className="skills flex-row">
-            {this.state.skills.map(item => (
+            {this.state.skills.map((item) => (
               <Skill name={item.name} level={item.level} key={item.name} />
             ))}
           </div>
