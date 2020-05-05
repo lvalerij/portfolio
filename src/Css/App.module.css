@@ -1,0 +1,50 @@
+@import url("https://pro.fontawesome.com/releases/v5.2.0/css/all.css");
+
+.App {
+  font-family: Montserrat !important;
+}
+
+.fullHeight {
+  min-height: 100vh;
+}
+
+.leftSidebar {
+  background-color: #663399;
+  color: white;
+}
+.profileImage {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.profileName h5 {
+  font-weight: bold;
+}
+.menuItems a {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+}
+.socialLinks a {
+  color: white;
+  font-weight: bold;
+}
+.selected {
+  color: #cc99cc !important;
+}
+.menuItems a:hover,
+.socialLinks a:hover {
+  text-decoration: underline;
+  color: #cc99cc;
+  cursor: pointer;
+}
+
+.rightSection {
+  border-left: 15px solid #660066;
+}
+.rightSectionInside h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #660066;
+}

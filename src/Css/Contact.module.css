@@ -1,0 +1,30 @@
+.contactSection {
+  border-radius: 8px;
+  border: 1px solid grey;
+  background-color: #663399;
+  /* shadow */
+  -webkit-box-shadow: 7px 6px 5px -1px rgba(181, 181, 181, 1);
+  -moz-box-shadow: 7px 6px 5px -1px rgba(181, 181, 181, 1);
+  box-shadow: 7px 6px 5px -1px rgba(181, 181, 181, 1);
+}
+.contactSection .labelText {
+  color: white;
+}
+.contactSectionForm button.submitButton {
+  background-color: white;
+  color: #333333;
+  font-weight: bold;
+}
+
+button.submitButton:hover {
+  background-color: #660066;
+  color: white;
+}
+.sentMessageFeedback {
+  color: white;
+}
+.errorMessage {
+  color: #ff6666;
+  font-weight: bold;
+  font-size: 1.1rem;
+}

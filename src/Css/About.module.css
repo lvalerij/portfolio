@@ -1,0 +1,20 @@
+.about h4 {
+  color: #660066;
+}
+.rightSectionInsideText {
+  color: #333333;
+  font-weight: semibold;
+}
+.aboutButtons button {
+  font-weight: bold;
+  margin-right: 5%;
+}
+.aboutButtons button:hover {
+  background-color: #660066;
+}
+.viewButton {
+  background-color: #9966cc;
+}
+.resumeButton {
+  background-color: #666666;
+}
